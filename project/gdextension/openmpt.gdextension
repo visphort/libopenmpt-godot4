@@ -1,0 +1,22 @@
+[configuration]
+
+entry_symbol = "openmpt_library_init"
+
+[libraries]
+
+macos.debug = "res://gdextension/libopenmpt/libopenmptgodot.macos.template_debug.framework"
+macos.release = "res://gdextension/libopenmpt/libopenmptgodot.macos.template_release.framework"
+windows.debug.x86_32 = "res://gdextension/libopenmpt/libopenmptgodot.windows.template_debug.x86_32.dll"
+windows.release.x86_32 = "res://gdextension/libopenmpt/libopenmptgodot.windows.template_release.x86_32.dll"
+windows.debug.x86_64 = "res://gdextension/libopenmpt/libopenmptgodot.windows.template_debug.x86_64.dll"
+windows.release.x86_64 = "res://gdextension/libopenmpt/libopenmptgodot.windows.template_release.x86_64.dll"
+linux.debug.x86_64 = "res://gdextension/libopenmpt/libopenmptgodot.linux.template_debug.x86_64.so"
+linux.release.x86_64 = "res://gdextension/libopenmpt/libopenmptgodot.linux.template_release.x86_64.so"
+linux.debug.arm64 = "res://gdextension/libopenmpt/libopenmptgodot.linux.template_debug.arm64.so"
+linux.release.arm64 = "res://gdextension/libopenmpt/libopenmptgodot.linux.template_release.arm64.so"
+linux.debug.rv64 = "res://gdextension/libopenmpt/libopenmptgodot.linux.template_debug.rv64.so"
+linux.release.rv64 = "res://gdextension/libopenmpt/libopenmptgodot.linux.template_release.rv64.so"
+android.debug.x86_64 = "res://gdextension/libopenmpt/libopenmptgodot.android.template_debug.x86_64.so"
+android.release.x86_64 = "res://gdextension/libopenmpt/libopenmptgodot.android.template_release.x86_64.so"
+android.debug.arm64 = "res://gdextension/libopenmpt/libopenmptgodot.android.template_debug.arm64.so"
+android.release.arm64 = "res://gdextension/libopenmpt/libopenmptgodot.android.template_release.arm64.so"
